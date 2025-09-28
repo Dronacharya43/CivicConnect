@@ -1,17 +1,35 @@
-# CivicConnect: AI-powered Civic Complaint Platform
+# CivicConnect: AI-powered Civic Complaint Platform 🏛️✨
 
 A prototype web application to transform civic grievance redressal in India into a transparent, citizen-driven, AI-assisted, and real-time platform.
 
-- Frontend: React + Vite + Tailwind CSS
+- Frontend: React + Vite + Tailwind CSS + **Framer Motion Animations**
 - Backend: Node.js + Express + MongoDB (Atlas)
 - Auth: Firebase Authentication (Email/Google)
 - GIS: Leaflet (OSM tiles)
 - AI (prototype): Rule-based NLP categorization & prioritization
 - Deploy: Vercel (frontend), Render/Heroku (backend)
 
+## ✨ New Features Added
+
+### 🎨 Comprehensive Animation System
+- **Smooth Page Transitions**: Beautiful route transitions with Framer Motion
+- **Interactive UI Elements**: Hover effects, loading spinners, and micro-interactions
+- **Enhanced User Experience**: Animated forms, map interactions, and responsive feedback
+- **Modern Design**: Glass morphism effects, gradient backgrounds, and custom styling
+
+### 🎯 Animation Features
+- 🎪 Smooth route transitions between pages
+- 🎨 Interactive hover and focus animations
+- ⏰ Loading states with spinners and skeleton loaders
+- 📱 Responsive and accessible animations
+- 🎭 Micro-interactions throughout the UI
+- 🌟 Enhanced navbar with animated logo and links
+- 📝 Animated form elements with smooth focus effects
+- 🗺️ Enhanced map dashboard with filter animations
+
 ## Monorepo Layout
 
-- frontend/ — React app (Vite)
+- frontend/ — React app (Vite) with Framer Motion animations
 - backend/ — Express API server
 
 ## Prerequisites
@@ -64,7 +82,7 @@ cd backend
 npm install
 cd ..
 
-# Frontend
+# Frontend (now includes Framer Motion)
 cd frontend
 npm install
 cd ..
@@ -105,6 +123,7 @@ Backend: http://localhost:4000
 
 ## 5) Features implemented (prototype)
 
+- **✨ Animated UI**: Comprehensive animation system with smooth transitions
 - Citizen reporting: photo upload, GPS auto-capture (browser geolocation), category selection, single-tap submit
 - AI triage: rule-based NLP classifier to auto-classify category, set severity, and suggest department
 - Crowdsourced validation: upvotes and comments on issues
